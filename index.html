@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/makerstrap/makerstrap.complete.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/print.css" media="print">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.3.1/js-yaml.min.js"></script>
+
+    <title>Activity: Loading...</title>
+
+    <!-- Handlebars Templates -->
+
+    <script id="locales-bar-template" type="text/x-handlebars-template">
+
+    </script>
+
+    <script id="navigation-template" type="text/x-handlebars-template">
+        <div class="container">
+            <div>
+                <!-- toggle button for mobile -->
+                <button type="button" class="navbar-toggle" ng-click="collapseToggle()"><span class="sr-only">Toggle navigation</span></button> <!-- logo -->
+                <a href="#" class="logo webmaker-logo"><img src="https://webmaker.org/img/logo.png"></a>
+
+
+                <ul class="nav navbar-nav navbar-right navbar-collapse text-center-xs collapse">
+
+                    <li>
+                        <a href="https://twitter.com/hashtag/teachtheweb">#TeachTheWeb</a>
+                    </li>
+
+                    <li>
+                        <a href="http://discourse.webmaker.org/category/clubs">Discussion</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/{{activity.meta.github}}">View on Github</a>
+                    </li>
+                    <li>
+                        <select class="form-control" id="locales-switch">
+                        {{#each locales}}
+                            <option value="{{code}}" {{selectIfCurrentLocale code}}>{{name}}</option>
+                        {{/each}}
+                        </select>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </script>
+
+    <script id="aside-template" type="text/x-handlebars-template">
+        <div class="image">
+            <img src="activity-data/images/{{activity.meta.image}}"> <a href="http://mouse.org" class="attribution"><i class="fa fa-camera"></i> Mouse</a>
+        </div>
+
+        <div class="goals">
+            <h4>{{activity.meta.competencies_label}}</h4>
+            {{#each activity.meta.competencies}}
+                {{{competencyButton this}}}
+            {{/each}}
+
+
+            {{{activity.aside}}}
+        </div>
+    </script>
+
+    <script id="footer-template" type="text/x-handlebars-template">
+        <a href="{{activity.nextActivity.url}}"><button class="btn literacy-color-{{activity.nextActivity.type}}">{{activity.nextActivity.title}}</button></a>
+
+        <!--Licensing Information-->
+
+        <div class="license">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>
+        </div>
+    </script>
+
+    <script id="activity-template" type="text/x-handlebars-template">
+        <div class="activity-instructions">
+        {{{activity.activity}}}
+        </div>
+    </script>
+
+    <script id="competency-button-template" type="text/x-handlebars-template">
+        <a href="https://webmaker.org/en-US/resources/literacy/weblit-{{toLowerCase competency.type}}">
+            <button class="btn literacy-color-{{toLowerCase competency.type}}">{{competency.label}}</button>
+        </a>
+    </script>
+
+
+</head>
+
+<body>
+    <nav id="navigation" class="navbar navbar-webmaker"></nav>
+
+    <div class="wrapper">
+        <aside class="aside"></aside>
+
+        <article class="main">
+
+        </article>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+    <script src="meta-marked.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
