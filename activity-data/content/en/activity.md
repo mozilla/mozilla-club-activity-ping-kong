@@ -1,6 +1,6 @@
 ---
 title: Ping Kong
-github: riomozillaclub/activity-template
+github: mozilla/mozilla-club-activity-ping-kong
 image: pingkong.png
 competencies:
     - {label: "Web Mechanics", type: "web-mechanics"}
