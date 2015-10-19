@@ -6,6 +6,8 @@ For many, "the Internet" is an abstract and overwhelming concept. This activity 
 
 It lasts about 1-2 hours
 
+You can [view this activity online](http://mozilla.github.io/mozilla-club-activity-ping-kong).
+
 ---
 
 # Mozilla Clubs
