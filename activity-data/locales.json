@@ -1,4 +1,5 @@
 [
   {"name": "English", "code": "en"},
-  {"name": "Indonesian", "code": "id"}
+  {"name": "Indonesian", "code": "id"},
+  {"name": "Español", "code": "es"}
 ]
