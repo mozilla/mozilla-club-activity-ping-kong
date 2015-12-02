@@ -22,6 +22,6 @@
 * Si algunos estudiantes se mueven más rápido o se sienten más confiados en la actividad, pídeles ayudar como mentor en otro grupo.
 * Concluye solicitando a los estudiantes enseñar esta actividad a sus amigos y familiares.
 
-#### Mira las mezclas de la comunidad
+#### Mira también las mezclas de la comunidad
 
 Revisa las distintas formas en que educadores y activistas han modificado esta actividad para sus audiencias específicas en nuestro [Foto de discusión](https://discourse.webmaker.org/c/curriculum).
