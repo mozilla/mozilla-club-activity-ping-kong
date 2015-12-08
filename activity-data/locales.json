@@ -1,5 +1,7 @@
 [
   {"name": "English", "code": "en"},
-  {"name": "Indonesian", "code": "id"},
-  {"name": "Español", "code": "es"}
+  {"name": "Español", "code": "es"},
+  {"name": "German", "code": "de"},
+  {"name": "Indonesian", "code": "id"}
+
 ]
