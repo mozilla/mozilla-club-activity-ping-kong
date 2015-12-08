@@ -5,7 +5,7 @@
 
 #### Materials
 
-* Printed [Obstacle Course Signs] (http://www.mousesquad.org/files/u4/pingkongcards.png)
+* Printed [Obstacle Course Signs](http://www.mousesquad.org/files/u4/pingkongcards.png)
 * Web browser (optional)
 
 
