@@ -178,7 +178,7 @@ Ask the group some reflective questions like:
 > * How long did it take you to get all the way from the computer through the Internet to the website?
 > * Do you think a computer moves faster through the Internet than you did?
 > * What happens on the Internet when you type a Web address and hit enter?
-> * What are the 'parts' of the Internet?
+> * What are the "parts" of the Internet?
 > * How do large amounts of information ever make it through low-bandwidth parts of the Net?
 > * What's the difference between the Internet and the World Wide Web?
 
