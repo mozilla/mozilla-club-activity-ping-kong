@@ -5,7 +5,7 @@
 
 #### Materiales
 
-* [Signos de pista de obstáculos] (http://www.mousesquad.org/files/u4/pingkongcards.png) impresos
+* [Signos de la pista de obstáculos] (http://www.mousesquad.org/files/u4/pingkongcards.png) impresos
 * Navegador Web (opcional)
 
 
@@ -24,4 +24,4 @@
 
 #### Mira también las mezclas de la comunidad
 
-Revisa las distintas formas en que educadores y activistas han modificado esta actividad para sus audiencias específicas en nuestro [Foto de discusión](https://discourse.webmaker.org/c/curriculum).
+Revisa las distintas formas en que educadores y activistas han modificado esta actividad para sus audiencias específicas en nuestro [Foro de discusión](https://discourse.webmaker.org/c/curriculum).

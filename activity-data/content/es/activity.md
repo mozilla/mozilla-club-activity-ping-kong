@@ -36,7 +36,7 @@ A continuación, **realiza la actividad de forma independiente** para familiariz
 9. Router
 10. Traceroute
 
-**Imprime y recorta* los [signos de pista de obstáculos Ping Kong](http://www.mousesquad.org/files/u4/pingkongcards.png).
+**Imprime y recorta* los [signos de la pista de obstáculos Ping Kong](http://www.mousesquad.org/files/u4/pingkongcards.png).
 
 **Haz suficiente espacio** en la habitación para realizar una "pista de obstáculos". **Cuelga las tarjetas** etiquetadas “Mi computador” y “El sitio web” en lados opuestos de la habitación.
 
