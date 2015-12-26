@@ -3,6 +3,6 @@
   {"name": "Español", "code": "es"},
   {"name": "German", "code": "de"},
   {"name": "Hindi", "code": "hi"},
-  {"name": "Indonesian", "code": "id"}
-
+  {"name": "Indonesian", "code": "id"},
+  {"name": "Português", "code": "pt"}
 ]
