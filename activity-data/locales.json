@@ -1,6 +1,7 @@
 [
   {"name": "English", "code": "en"},
-  {"name": "Español", "code": "es"},
+  {"name": "Español", "code": "es"},  
+  {"name": "Filipino", "code": "fil"},
   {"name": "German", "code": "de"},
   {"name": "Gujarati", "code": "gu"},
   {"name": "Hindi", "code": "hi"},
