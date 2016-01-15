@@ -3,8 +3,8 @@ title: Ping Kong
 github: mozilla/mozilla-club-activity-ping-kong
 image: pingkong.png
 competencies:
-    - {label: "વેબ કાર્યપ્રક્રિયા", type: "web-mechanics"}
-    - {label: "સંશોધક", type: "navigation"}
+    - {label: "Web Mechanics", type: "web-mechanics"}
+    - {label: "Navigation", type: "navigation"}
 ---
 
 ## [Seksyon 1. Pagbabasa ng Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)

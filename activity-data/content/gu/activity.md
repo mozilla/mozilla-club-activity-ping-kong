@@ -3,8 +3,8 @@ title: પીંગ કોંગ
 github: mozilla/mozilla-club-activity-ping-kong
 image: pingkong.png
 competencies:
-    - {label: "Web Mechanics", type: "web-mechanics"}
-    - {label: "Navigation", type: "navigation"}
+    - {label: "વેબ કાર્યપ્રક્રિયા", type: "web-mechanics"}
+    - {label: "સંશોધક", type: "navigation"}
 ---
 ## [ભાગ 1. વેબ પર વાંચન](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)
 ### પીંગ કોંગ 
