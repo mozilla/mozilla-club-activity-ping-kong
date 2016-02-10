@@ -1,3 +1,4 @@
+---
 title: Ping Kong
 github: mozilla/mozilla-club-activity-ping-kong
 image: pingkong.png
