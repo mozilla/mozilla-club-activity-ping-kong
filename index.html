@@ -35,11 +35,11 @@
                     </li>
 
                     <li>
-                        <a href="http://discourse.webmaker.org/category/clubs">Discussion</a>
+                        <a href="http://discourse.webmaker.org/category/clubs">{{withDefaultValue  activity.meta.discourse_label "Discussion"}}</a>
                     </li>
 
                     <li>
-                        <a href="https://github.com/{{activity.meta.github}}">View on Github</a>
+                        <a href="https://github.com/{{activity.meta.github}}">{{withDefaultValue activity.meta.github_label "View on Github"}}</a>
                     </li>
                     <li>
                         <select class="form-control" id="locales-switch">

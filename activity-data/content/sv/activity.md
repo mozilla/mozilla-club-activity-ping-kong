@@ -1,6 +1,8 @@
 ---
 title: Ping Kong
 github: mozilla/mozilla-club-activity-ping-kong
+github_label: Visa på Github
+discourse_label: Diskussion
 image: pingkong.png
 competencies:
     - {label: "Webb mekanik", type: "web-mechanics"}

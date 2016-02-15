@@ -227,6 +227,11 @@
             return "";
         }
     });
+    
+    Handlebars.registerHelper('withDefaultValue', function (value, safeValue) {
+        var out = value || safeValue;
+        return new Handlebars.SafeString(out);
+    });
 
 
     // Start the app.
