@@ -3,7 +3,7 @@ title: Ping Kong
 github: mozilla/mozilla-club-activity-ping-kong
 image: pingkong.png
 competencies:
-    - {label: "Web Mechanics", type: "web-mechanics"}
+    - {label: "Webb mekanik", type: "web-mechanics"}
     - {label: "Navigation", type: "navigation"}
 ---
 
