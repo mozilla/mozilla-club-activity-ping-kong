@@ -1,5 +1,6 @@
 [
   {"name": "English", "code": "en"},
+  {"name": "中文", "code": "zh-s"},
   {"name": "Español", "code": "es"},  
   {"name": "Filipino", "code": "fil"},
   {"name": "Deutsch", "code": "de"},
