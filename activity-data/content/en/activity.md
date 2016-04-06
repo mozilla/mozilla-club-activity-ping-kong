@@ -2,9 +2,13 @@
 title: Ping Kong
 github: mozilla/mozilla-club-activity-ping-kong
 image: pingkong.png
+competencies_label: Web Literacy Skills
 competencies:
-    - {label: "Web Mechanics", type: "web-mechanics"}
-    - {label: "Navigation", type: "navigation"}
+    - {label: "Navigate", type: "navigate"}
+    - {label: "Synthesize", type: "synthesize"}
+skills_label: 21st Century Skills
+skills:
+    - {label: "Communication", type: "communication"}
 ---
 
 ## [Section 1. Reading the Web](http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/)
