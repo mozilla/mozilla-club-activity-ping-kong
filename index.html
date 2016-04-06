@@ -65,7 +65,12 @@
                 {{{competencyButton this}}}
             {{/each}}
 
+            <h4>{{activity.meta.skills_label}}</h4>
+            {{#each activity.meta.skills}}
+                {{{competencyButton this}}}
+            {{/each}}
 
+            
             {{{activity.aside}}}
         </div>
     </script>
@@ -87,7 +92,7 @@
     </script>
 
     <script id="competency-button-template" type="text/x-handlebars-template">
-        <a href="https://webmaker.org/en-US/resources/literacy/weblit-{{toLowerCase competency.type}}">
+        <a href="#">
             <button class="btn literacy-color-{{toLowerCase competency.type}}">{{competency.label}}</button>
         </a>
     </script>
